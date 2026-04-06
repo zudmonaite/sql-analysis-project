@@ -12,30 +12,30 @@ This project was completed as part of two tasks (SQL and Databases) at **Turing 
 
 ## 🌍 Table of Contents
   1. [About the Project](#about-the-project)
-  2. Data Source
-  3. Basic SQL
-    3.1 Overview of Products
-  4. Advanced SQL
-    4.1 Overview of Customers
-    4.2 Reporting Sales Numbers
-  5. Sample Results
-  6. Technologies
-  7. Usage Instructions
-  8. Next Steps
+  2. [Data Source](#data-source)
+  3. [Basic SQL](#basic-sql)
+    3.1 [Overview of Products](#overview-of-products)
+  4. [Advanced SQL](#advanced-sql)
+    4.1 [Overview of Customers](#overview-of-customers)
+    4.2 [Reporting Sales Numbers](#reporting-sales-numbers)
+  5. [Sample Results](#sample-results)
+  6. [Technologies](#technologies) 
+  7. [Usage Instructions](#usage-instructions)
+  8. [Next Steps](#next-steps)
 
-## About the Project
+## 1. About the Project
 
 This portfolio demonstrates my SQL abilities across multiple areas:
 - **Basic SQL**: SELECT, WHERE, JOIN, GROUP BY, aggregate functions
 - **Advanced SQL**: CTEs, Window functions, ranking, cumulative sums, complex business reporting
 - Query results were exported from Google Sheets, as I do not have direct access to the full database.
 
-## Data Source
+## 2. Data Source
 
 The queries are based on the **AdventureWorks 2005** demo database (Microsoft).
 Download the AdventureWorks demo database here: [Microsoft Learn AdventureWorks Samples](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17)
 
-## Basic SQL
+## 3. Basic SQL
 
 This section demonstrates my ability to work with core SQL concepts, including filtering, joining tables, ordering results, and using aggregate functions.
 
@@ -50,7 +50,7 @@ Aggregated data from the WorkOrderRouting table for January 2004.
 Calculated totals, unique counts, sums, and averages by LocationId.
 Filtered work orders based on cost thresholds for reporting purposes.
 
-## Advanced SQL
+## 4. Advanced SQL
 
 This section demonstrates my ability to handle complex SQL queries and business reporting scenarios using advanced techniques.
 
@@ -66,21 +66,21 @@ This section demonstrates my ability to handle complex SQL queries and business 
   - Calculated cumulative totals and rankings using window functions.
   - Incorporated country-level tax details and percentages to enhance reporting accuracy.
 
-## Sample Results
+## 5. Sample Results
 
 Results are provided in basic-sql/results.md and advanced-sql/results.md.
 
-# Technologies
+# 6. Technologies
 - SQL Server / T-SQL
 - Google Sheets (for exporting results)
 
-## Usage Instructions
+## 7. Usage Instructions
 
 - Download the AdventureWorks demo database if you want to run the queries.
 - Review SQL queries in basic-sql/queries.sql and advanced-sql/queries.sql.
 - Check example results in results.md.
 
-## Next Steps
+## 8. Next Steps
 
 - Add additional advanced analytics queries (e.g., time series, predictive metrics)
 - Integrate visualizations for key insights
