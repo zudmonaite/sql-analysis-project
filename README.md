@@ -1,4 +1,4 @@
-# Advanced SQL and Databases Portfolio
+# 💫 Advanced SQL and Databases Portfolio
 
 ## Executive Summary
 
