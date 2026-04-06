@@ -70,7 +70,7 @@ This section demonstrates my ability to handle complex SQL queries and business 
 
 Results are provided in basic-sql/results.md and advanced-sql/results.md.
 
-# 6. Technologies
+## 6. Technologies
 - SQL Server / T-SQL
 - Google Sheets (for exporting results)
 
