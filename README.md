@@ -62,6 +62,8 @@ This section demonstrates my ability to work with core SQL concepts, including f
 - Aggregated data from the WorkOrderRouting table for January 2004.
 - Calculated totals, unique counts, sums, and averages by LocationId.
 - Filtered work orders based on cost thresholds for reporting purposes.
+- **Query**:
+- **Sample Result**:
 
 ---
 
