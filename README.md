@@ -1,11 +1,17 @@
 # 💫 Advanced SQL and Databases Portfolio
 
-## Executive Summary
+This project was completed as part of two tasks (SQL and Databases) at **Turing College**. The main goal is to showcase the SQL skills I gained during my studies, including both **basic** and     **advanced** queries.
 
-This project was completed as part of two tasks (SQL and Databases) at **Turing College**. The main goal is to showcase the SQL skills I gained during my studies, including both **basic** and **advanced** queries.
+**🌱 Skills demonstrated:**
 
-## Table of Contents
-  1. About the Project
+- Writing and structuring SELECT queries with multiple JOINs
+- Filtering, ordering, and grouping data efficiently
+- Using aggregate functions (COUNT, SUM, AVG)
+- Applying window functions and ranking
+- Combining multiple tables for business insights and reporting
+
+##🌍 Table of Contents
+  1. [About the Project](#about-the-project)
   2. Data Source
   3. Basic SQL
     3.1 Overview of Products
@@ -44,13 +50,6 @@ Aggregated data from the WorkOrderRouting table for January 2004.
 Calculated totals, unique counts, sums, and averages by LocationId.
 Filtered work orders based on cost thresholds for reporting purposes.
 
-**Skills demonstrated:**
-
-- Writing SELECT queries with multiple JOINs
-- Applying WHERE filters and ORDER BY clauses
-- Using aggregate functions (COUNT, SUM, AVG)
-- Structuring queries for clear, reusable results
-
 ## Advanced SQL
 
 This section demonstrates my ability to handle complex SQL queries and business reporting scenarios using advanced techniques.
@@ -66,14 +65,6 @@ This section demonstrates my ability to handle complex SQL queries and business 
   - Generated monthly sales reports by country and region.
   - Calculated cumulative totals and rankings using window functions.
   - Incorporated country-level tax details and percentages to enhance reporting accuracy.
-
-**Skills demonstrated:**
-
-- Using window functions (RANK, SUM OVER)
-- Writing complex JOINs and aggregations
-- Filtering and grouping with advanced criteria
-- Structuring queries for business insights and reporting
-- Combining multiple tables to produce enriched datasets
 
 ## Sample Results
 
