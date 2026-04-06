@@ -26,7 +26,7 @@ JOIN `tc-da-1.adwentureworks_db.productcategory` AS category
 -- Apply filters:
 -- 1. Include only high-value products (ListPrice > 2000)
 -- 2. Include only active products (SellEndDate IS NULL)
-WHERE product.ListPrice>2000 
+WHERE product.ListPrice > 2000 
   AND product.SellEndDate IS NULL
   
 -- Sort results by price in descending order (highest first)
