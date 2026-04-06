@@ -55,7 +55,6 @@ This section demonstrates my ability to work with core SQL concepts, including f
 *1. Product Data Analysis*
 - Retrieved product information from the Product table with relevant subcategory and category details.
 - Applied filters and ordering to highlight specific products, including the most expensive bikes.
-
 - **Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
 - **Sample Result**: [Basic SQL Results](basic-sql/basic-queries(1)-result.xlsx)
 
