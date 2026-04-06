@@ -1,4 +1,4 @@
-"WITH
+WITH
   LatestAddress AS (
   SELECT
     customer_address.CustomerID,
@@ -76,4 +76,4 @@ GROUP BY
 ORDER BY
   total_amount DESC
 LIMIT
-  200;"
+  200;
