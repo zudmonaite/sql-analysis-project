@@ -10,7 +10,7 @@ This project was completed as part of two tasks (SQL and Databases) at **Turing 
 - Applying window functions and ranking
 - Combining multiple tables for business insights and reporting
 
-##🌍 Table of Contents
+## 🌍 Table of Contents
   1. [About the Project](#about-the-project)
   2. Data Source
   3. Basic SQL
