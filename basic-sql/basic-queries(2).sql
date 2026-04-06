@@ -1,7 +1,6 @@
 --Task 1:  Retrieve data for location and calculate order count, product count, and total costs.
 -- Business goal:
 
-
 SELECT
   LocationID,
   COUNT(DISTINCT WorkOrderID) AS OrdersCount,
