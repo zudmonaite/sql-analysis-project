@@ -23,16 +23,16 @@ This portfolio is divided into two main sections:
 
 ## 🌍 Table of Contents
 
-- [🧳 Data Source](#-data-source)
-- [⭐ Basic SQL](#-basic-sql)
+- [Data Source](#-data-source)
+- [Basic SQL](#-basic-sql)
   - [Overview of Products](#overview-of-products)
-- [⭐ Advanced SQL](#-advanced-sql)
+- [Advanced SQL](#-advanced-sql)
   - [Overview of Customers](#overview-of-customers)
   - [Reporting Sales Numbers](#reporting-sales-numbers)
-- [📚 Sample Results](#-sample-results)
-- [💻 Technologies](#-technologies)
-- [🔎 Usage Instructions](#-usage-instructions)
-- [❔ Next Steps](#-next-steps)
+- [Sample Results](#-sample-results)
+- [Technologies](#-technologies)
+- [Usage Instructions](#-usage-instructions)
+- [Next Steps](#-next-steps)
 
 ---
 
