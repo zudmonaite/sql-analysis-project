@@ -29,14 +29,14 @@ This portfolio is divided into two main sections:
 6. [Usage Instructions](#usage-instructions)
 7. [Next Steps](#next-steps)
 
-## 🧳 1. Data Source
+## 🧳 Data Source
 
 The queries are based on the **AdventureWorks 2005** demo database provided by Microsoft.
 
 You can download the dataset here:  
 [Microsoft Learn AdventureWorks Samples](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17)
 
-## ⭐ 2. Basic SQL
+## ⭐ Basic SQL
 
 This section demonstrates my ability to work with core SQL concepts, including filtering, joining tables, ordering results, and using aggregate functions.
 
@@ -51,7 +51,7 @@ This section demonstrates my ability to work with core SQL concepts, including f
 - Calculated totals, unique counts, sums, and averages by LocationId.
 - Filtered work orders based on cost thresholds for reporting purposes.
 
-## ⭐ 3. Advanced SQL
+## ⭐ Advanced SQL
 
 This section demonstrates my ability to handle complex SQL queries and business reporting scenarios using advanced techniques.
 
@@ -67,24 +67,24 @@ This section demonstrates my ability to handle complex SQL queries and business 
 - Calculated cumulative totals and rankings using window functions.
 - Incorporated country-level tax details and percentages to enhance reporting accuracy.
 
-## 📚 4. Sample Results
+## 📚 Sample Results
 
 Results are available here:
 - [Basic SQL Results](basic-sql/results.md)
 - [Advanced SQL Results](advanced-sql/results.md)
 
-## 💻 5. Technologies
+## 💻 Technologies
 - SQL
 - Excel (for exporting query results)
 - GitHub
 
-## 🔎 6. Usage Instructions
+## 🔎 Usage Instructions
 
 - Download the AdventureWorks demo database if you want to run the queries.
 - Review SQL queries in basic-sql/queries.sql and advanced-sql/queries.sql.
 - Check example results in results.md.
 
-## ❔ 7. Next Steps
+## ❔ Next Steps
 
 - Add additional advanced analytics queries (e.g., time series, predictive metrics)
 - Integrate visualizations for key insights
