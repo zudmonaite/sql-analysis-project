@@ -29,7 +29,6 @@ This portfolio is divided into two main sections:
 - [Advanced SQL](#-advanced-sql)
   - [Overview of Customers](#overview-of-customers)
   - [Reporting Sales Numbers](#reporting-sales-numbers)
-- [Sample Results](#-sample-results)
 - [Technologies](#-technologies)
 - [Usage Instructions](#-usage-instructions)
 - [Next Steps](#-next-steps)
@@ -57,16 +56,14 @@ This section demonstrates my ability to work with core SQL concepts, including f
 - Retrieved product information from the Product table with relevant subcategory and category details.
 - Applied filters and ordering to highlight specific products, including the most expensive bikes.
 
-**Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
-**Sample Result**: [Basic SQL Results](basic-sql/results.md)
+- **Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
+- **Sample Result**: [Basic SQL Results](basic-sql/results.md)
 
 *2. Work Order Analysis*
 - Aggregated data from the WorkOrderRouting table for January 2004.
 - Calculated totals, unique counts, sums, and averages by LocationId.
 - Filtered work orders based on cost thresholds for reporting purposes.
 
-**Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
-**Sample Result**: [Basic SQL Results](basic-sql/results.md)
 ---
 
 ## ⭐ Advanced SQL
@@ -79,9 +76,6 @@ This section demonstrates my ability to handle complex SQL queries and business 
 - Created detailed reports for individual customers, including activity status, order history, and total amounts.
 - Applied filters for top customers and active customers from specific regions.
 - Split and formatted address data for clearer reporting.
-
-**Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
-**Sample Result**: [Basic SQL Results](basic-sql/results.md)
 
 ### Reporting Sales Numbers
 
