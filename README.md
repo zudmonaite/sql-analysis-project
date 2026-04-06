@@ -11,17 +11,17 @@ This project was completed as part of two tasks (SQL and Databases) at **Turing 
 - Combining multiple tables for business insights and reporting
 
 ## 🌍 Table of Contents
-  1. [About the Project](#about-the-project)
-  2. [Data Source](#data-source)
-  3. [Basic SQL](#basic-sql)
-  3.1 [Overview of Products](#overview-of-products)
-  4. [Advanced SQL](#advanced-sql)
-  4.1 [Overview of Customers](#overview-of-customers)
-  4.2 [Reporting Sales Numbers](#reporting-sales-numbers)
-  5. [Sample Results](#sample-results)
-  6. [Technologies](#technologies) 
-  7. [Usage Instructions](#usage-instructions)
-  8. [Next Steps](#next-steps)
+1. [About the Project](#about-the-project)
+2. [Data Source](#data-source)
+3. [Basic SQL](#basic-sql)
+   - [Overview of Products](#overview-of-products)
+4. [Advanced SQL](#advanced-sql)
+   - [Overview of Customers](#overview-of-customers)
+   - [Reporting Sales Numbers](#reporting-sales-numbers)
+5. [Sample Results](#sample-results)
+6. [Technologies](#technologies)
+7. [Usage Instructions](#usage-instructions)
+8. [Next Steps](#next-steps)
 
 ## 1. About the Project
 
