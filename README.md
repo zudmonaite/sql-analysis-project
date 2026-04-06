@@ -18,16 +18,17 @@ This portfolio is divided into two main sections:
 - **Advanced SQL** – customer insights and sales reporting  
 
 ## 🌍 Table of Contents
-1. [Data Source](#data-source)
-2. [Basic SQL](#basic-sql)
-   - [Overview of Products](#overview-of-products)
-3. [Advanced SQL](#advanced-sql)
-   - [Overview of Customers](#overview-of-customers)
-   - [Reporting Sales Numbers](#reporting-sales-numbers)
-4. [Sample Results](#sample-results)
-5. [Technologies](#technologies)
-6. [Usage Instructions](#usage-instructions)
-7. [Next Steps](#next-steps)
+
+- [Data Source](#data-source)
+- [Basic SQL](#basic-sql)
+  - [Overview of Products](#overview-of-products)
+- [Advanced SQL](#advanced-sql)
+  - [Overview of Customers](#overview-of-customers)
+  - [Reporting Sales Numbers](#reporting-sales-numbers)
+- [Sample Results](#sample-results)
+- [Technologies](#technologies)
+- [Usage Instructions](#usage-instructions)
+- [Next Steps](#next-steps)
 
 ## 🧳 Data Source
 
