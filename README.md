@@ -1,10 +1,10 @@
-## Advanced SQL and Databases Portfolio
+# Advanced SQL and Databases Portfolio
 
-# Executive Summary
+## Executive Summary
 
 This project was completed as part of two tasks (SQL and Databases) at **Turing College**. The main goal is to showcase the SQL skills I gained during my studies, including both **basic** and **advanced** queries.
 
-# Table of Contents
+## Table of Contents
   1. About the Project
   2. Data Source
   3. Basic SQL
@@ -17,19 +17,19 @@ This project was completed as part of two tasks (SQL and Databases) at **Turing 
   7. Usage Instructions
   8. Next Steps
 
-# About the Project
+## About the Project
 
 This portfolio demonstrates my SQL abilities across multiple areas:
 - **Basic SQL**: SELECT, WHERE, JOIN, GROUP BY, aggregate functions
 - **Advanced SQL**: CTEs, Window functions, ranking, cumulative sums, complex business reporting
 - Query results were exported from Google Sheets, as I do not have direct access to the full database.
 
-# Data Source
+## Data Source
 
 The queries are based on the **AdventureWorks 2005** demo database (Microsoft).
 Download the AdventureWorks demo database here: [Microsoft Learn AdventureWorks Samples](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17)
 
-# Basic SQL
+## Basic SQL
 
 This section demonstrates my ability to work with core SQL concepts, including filtering, joining tables, ordering results, and using aggregate functions.
 
@@ -51,7 +51,7 @@ Filtered work orders based on cost thresholds for reporting purposes.
 - Using aggregate functions (COUNT, SUM, AVG)
 - Structuring queries for clear, reusable results
 
-# Advanced SQL
+## Advanced SQL
 
 This section demonstrates my ability to handle complex SQL queries and business reporting scenarios using advanced techniques.
 
@@ -75,7 +75,7 @@ This section demonstrates my ability to handle complex SQL queries and business 
 - Structuring queries for business insights and reporting
 - Combining multiple tables to produce enriched datasets
 
-# Sample Results
+## Sample Results
 
 Results are provided in basic-sql/results.md and advanced-sql/results.md.
 
@@ -83,13 +83,13 @@ Results are provided in basic-sql/results.md and advanced-sql/results.md.
 - SQL Server / T-SQL
 - Google Sheets (for exporting results)
 
-# Usage Instructions
+## Usage Instructions
 
 - Download the AdventureWorks demo database if you want to run the queries.
 - Review SQL queries in basic-sql/queries.sql and advanced-sql/queries.sql.
 - Check example results in results.md.
 
-# Next Steps
+## Next Steps
 
 - Add additional advanced analytics queries (e.g., time series, predictive metrics)
 - Integrate visualizations for key insights
