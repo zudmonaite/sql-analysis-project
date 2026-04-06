@@ -77,6 +77,8 @@ This section demonstrates my ability to handle complex SQL queries and business 
 - Created detailed reports for individual customers, including activity status, order history, and total amounts.
 - Applied filters for top customers and active customers from specific regions.
 - Split and formatted address data for clearer reporting.
+- **Query**:
+- **Sample Result**:
 
 ### Reporting Sales Numbers
 
@@ -84,9 +86,9 @@ This section demonstrates my ability to handle complex SQL queries and business 
 - Generated monthly sales reports by country and region.
 - Calculated cumulative totals and rankings using window functions.
 - Incorporated country-level tax details and percentages to enhance reporting accuracy.
+- **Query**:
+- **Sample Result**:
 
-**Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
-**Sample Result**: [Basic SQL Results](basic-sql/results.md)
 ---
 
 ## 💻 Technologies
