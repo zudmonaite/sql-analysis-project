@@ -1,3 +1,16 @@
+-- Task 1:
+-- Create a monthly sales report by Country and Region, including
+-- order volume, unique customer count, salesperson count, and
+-- total revenue (including tax) across all customer types.
+
+-- Business Question:
+-- How does sales performance vary across countries and regions over time?
+
+-- Expected Insight:
+-- Monitor sales trends, compare regional performance, and identify
+-- markets with strong or weak growth based on revenue, customer activity,
+-- and sales team engagement.
+
 SELECT
   LAST_DAY(DATE(DATE_TRUNC(salesorderheader.OrderDate, MONTH))) AS order_month,
   salesterritory.CountryRegionCode AS country_region_code ,
@@ -18,6 +31,18 @@ GROUP BY
   region;
 
 ---
+
+-- Task 2:
+-- Extend the monthly sales report by adding a cumulative revenue metric
+-- that tracks the running total of sales amount (including tax) for each
+-- Country and Region over time.
+
+-- Business Question:
+-- How does revenue accumulate over time across different countries and regions?
+
+-- Expected Insight:
+-- Monitor long-term sales growth, compare market performance trends,
+-- and identify regions that consistently contribute to overall revenue growth.
 
 WITH
   MonthlySales AS (
@@ -56,8 +81,18 @@ FROM
   country_region_code;
 
 ---
+-- Task 3:
+-- Enhance the regional monthly sales report by adding a ranking column
+-- that ranks regions within each country based on total revenue (including tax)
+-- for each month, from highest to lowest.
 
---subquery
+-- Business Question:
+-- Which regions perform best within each country over time in terms of revenue generation?
+
+-- Expected Insight:
+-- Identify top-performing and underperforming regions within each market,
+-- enabling benchmarking, performance comparison, and targeted regional strategy improvements.
+
 WITH
   MonthlySales AS (
   SELECT
@@ -96,6 +131,21 @@ ORDER BY
   country_region_code;
 
 ---
+
+-- Task 4:
+-- Extend the regional sales ranking report by adding country-level tax context.
+-- Include the average tax rate per country (using the highest tax rate per province)
+-- and the share of provinces/states with available tax data.
+
+-- Business Question:
+-- How do differences in tax structures and data coverage across countries
+-- relate to reported sales performance?
+
+-- Expected Insight:
+-- Provide transparency into how tax variability may influence revenue comparisons
+-- across regions, while also highlighting data completeness issues at the
+-- province/state level. This supports more accurate cross-country benchmarking
+-- and improves confidence in regional performance analysis.
 
 -- CTE to aggregate monthly sales data per country and region
 WITH
