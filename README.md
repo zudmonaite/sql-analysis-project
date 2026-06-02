@@ -102,7 +102,7 @@ This section demonstrates my ability to handle complex SQL queries and business 
 
 - Download the AdventureWorks demo database if you want to run the queries.
 - Review SQL queries in `basic-sql/queries.sql` and `advanced-sql/queries.sql`.
-- Check example results in `results.md`.
+- Check the example results using the attached links.
 
 ---
 
