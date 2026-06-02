@@ -1,5 +1,7 @@
 --Task 1:  Retrieve data for location and calculate order count, product count, and total costs.
--- Business goal:
+-- Business goal: 
+-- Compare production activity and costs across locations to identify
+-- high-volume and high-cost operations that may require further analysis.
 
 SELECT
   LocationID,
@@ -12,8 +14,13 @@ GROUP BY LocationID
 ORDER BY TotalCost DESC;
 
 --- 
---Task 2:
--- Business goal:
+-- Task 2:
+-- Add the location name using a JOIN to improve result readability.
+-- Calculate the average number of days between Actual Start Date
+-- and Actual End Date for each location.
+-- Business Goal:
+-- Compare average work order completion times across production locations
+-- to identify potential operational bottlenecks and differences in efficiency.
 SELECT
   Routing.LocationID,
   Location.Name AS LocationName,
@@ -30,8 +37,11 @@ ORDER BY TotalCost DESC
 ;
 
 ---
---Task 3:
--- Business goal:
+-- Task 3:
+-- Retrieve all work orders from January 2004 where the actual cost
+-- exceeds 300.
+-- Business Question:
+-- Which work orders generated unusually high production costs?
 SELECT 
   WorkOrderID,
   SUM(ActualCost) AS TotalActualCost
