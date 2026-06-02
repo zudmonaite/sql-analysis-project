@@ -93,7 +93,7 @@ This section demonstrates my ability to handle complex SQL queries and business 
 
 ## 💻 Technologies
 - SQL
-- Excel (for exporting query results)
+- Google Sheets (for exporting query results)
 - GitHub
 
 ---
