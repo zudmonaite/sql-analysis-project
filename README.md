@@ -92,9 +92,9 @@ This section demonstrates my ability to handle complex SQL queries and business 
 ---
 
 ## 💻 Technologies
-- SQL
-- Google Sheets (for exporting query results)
-- GitHub
+- SQL (advanced querying, joins, CTEs, window functions)
+- Google Sheets (query result documentation and sharing)
+- GitHub (version control and project hosting)
 
 ---
 
@@ -108,6 +108,7 @@ This section demonstrates my ability to handle complex SQL queries and business 
 
 ## ❔ Next Steps
 
-- Add additional advanced analytics queries (e.g., time series, predictive metrics)
-- Integrate visualizations for key insights
-- Include a subset of CSV files for demonstration without requiring the full database
+- Expand analysis with advanced SQL techniques (window functions, cohort analysis, and time-based trends)
+- Develop interactive dashboards to complement SQL insights (Tableau or Power BI)
+- Add sample datasets (CSV extracts) to improve reproducibility without requiring full database setup
+- Improve customer analytics with segmentation (RFM analysis, churn indicators)
