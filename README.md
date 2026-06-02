@@ -63,7 +63,7 @@ This section demonstrates my ability to work with core SQL concepts, including f
 - Calculated totals, unique counts, sums, and averages by LocationId.
 - Filtered work orders based on cost thresholds for reporting purposes.
 - **Query**: [Basic SQL Query #2](basic-sql/basic-queries(2).sql)
-- **Sample Result**: [Basic SQL Results #2] (https://docs.google.com/spreadsheets/d/1dacZxmOXMjJLUTM74pvaUxmhJS36Brp6hu5LPJJ3D6I/edit?gid=2353348#gid=2353348)
+- **Sample Result**: [Basic SQL Results #1](https://docs.google.com/spreadsheets/d/1dacZxmOXMjJLUTM74pvaUxmhJS36Brp6hu5LPJJ3D6I/edit?gid=2353348#gid=2353348)
 
 ---
 
