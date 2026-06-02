@@ -78,7 +78,7 @@ This section demonstrates my ability to handle complex SQL queries and business 
 - Applied filters for top customers and active customers from specific regions.
 - Split and formatted address data for clearer reporting.
 - **Query**:[Advanced SQL Query](advanced-sql/advanced-queries(1).sql)
-- **Sample Result**: 
+- **Sample Result**: [Advanced SQL Results #1](https://docs.google.com/spreadsheets/d/1o_Ohvfo800PQnVIg2RC7H3_O-zpcIaPuoeL6oT2JkiI/edit?gid=0#gid=0)
 
 ### Reporting Sales Numbers
 
@@ -87,7 +87,7 @@ This section demonstrates my ability to handle complex SQL queries and business 
 - Calculated cumulative totals and rankings using window functions.
 - Incorporated country-level tax details and percentages to enhance reporting accuracy.
 - **Query**:[Advanced SQL Query](advanced-sql/advanced-queries(2).sql)
-- **Sample Result**:
+- **Sample Result**: [Advanced SQL Results #2](https://docs.google.com/spreadsheets/d/13SEXRpmFAnxc-yJj-ymLdMj6gbEYynDoUeVa0ZtXWJI/edit?gid=297288542#gid=297288542)
 
 ---
 
