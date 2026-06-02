@@ -55,15 +55,15 @@ This section demonstrates my ability to work with core SQL concepts, including f
 *1. Product Data Analysis*
 - Retrieved product information from the Product table with relevant subcategory and category details.
 - Applied filters and ordering to highlight specific products, including the most expensive bikes.
-- **Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
+- **Query**: [Basic SQL Query #1](basic-sql/basic-queries(1).sql)
 - **Sample Result**: [Basic SQL Results #1](https://docs.google.com/spreadsheets/d/1Kjazls1VZmS-7RbR6fKt9PQZRxWDeodI7GWGlWq4dak/edit?gid=2353348#gid=2353348)
 
 *2. Work Order Analysis*
 - Aggregated data from the WorkOrderRouting table for January 2004.
 - Calculated totals, unique counts, sums, and averages by LocationId.
 - Filtered work orders based on cost thresholds for reporting purposes.
-- **Query**:
-- **Sample Result**:
+- **Query**: [Basic SQL Query #2](basic-sql/basic-queries(2).sql)
+- **Sample Result**: [Basic SQL Results #2] (https://docs.google.com/spreadsheets/d/1dacZxmOXMjJLUTM74pvaUxmhJS36Brp6hu5LPJJ3D6I/edit?gid=2353348#gid=2353348)
 
 ---
 
