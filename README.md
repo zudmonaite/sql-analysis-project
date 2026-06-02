@@ -56,7 +56,7 @@ This section demonstrates my ability to work with core SQL concepts, including f
 - Retrieved product information from the Product table with relevant subcategory and category details.
 - Applied filters and ordering to highlight specific products, including the most expensive bikes.
 - **Query**: [Basic SQL Query](basic-sql/basic-queries(1).sql)
-- **Sample Result**: [Basic SQL Results](basic-sql/basic-queries(1)-result.xlsx)
+- **Sample Result**: [Basic SQL Results #1](https://docs.google.com/spreadsheets/d/1Kjazls1VZmS-7RbR6fKt9PQZRxWDeodI7GWGlWq4dak/edit?gid=2353348#gid=2353348)
 
 *2. Work Order Analysis*
 - Aggregated data from the WorkOrderRouting table for January 2004.
