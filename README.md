@@ -1,124 +1,114 @@
-# 💫 Google Sheets Sales Analytics Dashboard  
+# 💫 Advanced SQL and Databases Portfolio
 
-This project is a Google Sheets-based sales analytics dashboard built using the AdventureWorks dataset. The goal is to transform raw transactional data into meaningful business insights that support decision-making in areas such as sales performance, customer behavior, geography, and operational efficiency.
+This project was completed as part of two tasks (SQL and Databases) at **Turing College**. The main goal is to showcase the SQL skills I gained during my studies, including both **basic** and **advanced** queries.
 
-The analysis follows a structured data analytics workflow (Ask → Prepare → Process → Analyze → Share → Act), ensuring that all insights are directly linked to business questions and outcomes.
+**🌱 Skills demonstrated:**
 
-The final output is an interactive dashboard designed for executive-level reporting, combining pivot tables, charts, and structured analysis to deliver a clear overview of business performance.
-
----
-
-## 🌱 Skills Demonstrated
-
-- Data analysis using structured methodology (Ask–Prepare–Process–Analyze–Share–Act)  
-- Data cleaning and transformation in Google Sheets  
-- Data analysis & business reporting  
-- Dashboard design & data visualization  
-- Pivot tables for data aggregation  
-- Lookup functions (VLOOKUP)  
-- Spreadsheet automation (ARRAYFORMULA, IF, CONCATENATE)  
-- Data validation & conditional formatting  
-- Business insight generation & data storytelling  
+- Writing and structuring SELECT queries with multiple JOINs
+- Filtering, ordering, and grouping data efficiently
+- Using aggregate functions (COUNT, SUM, AVG)
+- Applying window functions, CTEs, and ranking
+- Combining multiple tables for business insights and reporting
 
 ---
 
-## 🧱 Structure of the Portfolio
+## 🧱 Structure of Portfolio
 
-This project is organized into clear analytical layers: task definition, data preparation, analysis, and final dashboard presentation.
+This portfolio is divided into two main sections:
 
-### 1. Task Sheet
-This sheet contains the full assignment description and business questions that guided the entire analysis process.
-
----
-
-### 2. Data Layer (Raw & Processed Data)
-
-The dataset is based on the AdventureWorks database and includes multiple interconnected tables:
-
-- SalesOrderHeader – main transactional dataset  
-- Employee – salesperson details and contact information  
-- SalesReason – reasons behind customer purchase decisions  
-- SalesTerritory – geographic and country-level sales data  
-- Pivot Support Sheet – aggregation layer used for dashboard creation  
-
-This layer contains cleaned and structured data used for analysis.
-
----
-
-### 3. Analysis & Pivot Layer
-
-A dedicated pivot table layer is used to aggregate and structure the data for reporting. These pivot tables serve as the foundation for all visualizations in the dashboard.
-
----
-
-### 4. Overview Dashboard (Main Output)
-
-The Overview sheet presents key business insights through multiple analytical sections:
-
-- **Sales Performance:** Monthly revenue, sales volume, and average trends  
-- **Customer Behavior:** Sales reasons analysis by quarter  
-- **Channel Analysis:** Online vs non-online sales comparison (revenue & volume)  
-- **Performance Leaders:** Top employees by revenue and transaction count  
-- **Geographic Analysis:** Sales trends by country over time  
-- **Delivery Performance:** Order-to-ship time analysis  
-
-The dashboard is designed to provide a clear, executive-level view of business performance and decision-making insights.
+- **Basic SQL** – product and work order analysis  
+- **Advanced SQL** – customer insights and sales reporting  
 
 ---
 
 ## 🌍 Table of Contents
 
-- [Data Source](#-data-source)  
-- [Project Overview](#-google-sheets-sales-analytics-dashboard)  
-- [Technologies](#-technologies)  
-- [Usage Instructions](#-usage-instructions)  
-- [Next Steps](#-next-steps)  
+- [Data Source](#-data-source)
+- [Basic SQL](#-basic-sql)
+  - [Overview of Products](#overview-of-products)
+- [Advanced SQL](#-advanced-sql)
+  - [Overview of Customers](#overview-of-customers)
+  - [Reporting Sales Numbers](#reporting-sales-numbers)
+- [Technologies](#-technologies)
+- [Usage Instructions](#-usage-instructions)
+- [Next Steps](#-next-steps)
 
 ---
 
 ## 🧳 Data Source
 
-This project uses the **AdventureWorks 2005 sample database** provided by Microsoft.
+The queries are based on the **AdventureWorks 2005** demo database provided by Microsoft.
 
-Dataset:  
-https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17  
+You can download the dataset here:  
+[Microsoft Learn AdventureWorks Samples](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17)
 
 ---
 
-## ⭐ Project Overview
+## ⭐ Basic SQL
 
-👉 Explore the full interactive dashboard here:  
-https://docs.google.com/spreadsheets/d/1mApP8pBNMbM7zQDyxo1rOAOa28LwwZZZBhNEhXW7PyM/edit?gid=141689769#gid=141689769  
+This section demonstrates my ability to work with core SQL concepts, including filtering, joining tables, ordering results, and using aggregate functions.
+
+### Overview of Products
+
+**Key tasks included:**
+
+*1. Product Data Analysis*
+- Retrieved product information from the Product table with relevant subcategory and category details.
+- Applied filters and ordering to highlight specific products, including the most expensive bikes.
+- **Query**: [Basic SQL Query #1](basic-sql/basic-queries(1).sql)
+- **Sample Result**: [Basic SQL Results #1](https://docs.google.com/spreadsheets/d/1Kjazls1VZmS-7RbR6fKt9PQZRxWDeodI7GWGlWq4dak/edit?gid=2353348#gid=2353348)
+
+*2. Work Order Analysis*
+- Aggregated data from the WorkOrderRouting table for January 2004.
+- Calculated totals, unique counts, sums, and averages by LocationId.
+- Filtered work orders based on cost thresholds for reporting purposes.
+- **Query**: [Basic SQL Query #2](basic-sql/basic-queries(2).sql)
+- **Sample Result**: [Basic SQL Results #1](https://docs.google.com/spreadsheets/d/1dacZxmOXMjJLUTM74pvaUxmhJS36Brp6hu5LPJJ3D6I/edit?gid=2353348#gid=2353348)
+
+---
+
+## ⭐ Advanced SQL
+
+This section demonstrates my ability to handle complex SQL queries and business reporting scenarios using advanced techniques.
+
+### Overview of Customers
+
+*1. Customer Overview*
+- Created detailed reports for individual customers, including activity status, order history, and total amounts.
+- Applied filters for top customers and active customers from specific regions.
+- Split and formatted address data for clearer reporting.
+- **Query**:[Advanced SQL Query #1](advanced-sql/advanced-queries(1).sql)
+- **Sample Result**: [Advanced SQL Results #1](https://docs.google.com/spreadsheets/d/1o_Ohvfo800PQnVIg2RC7H3_O-zpcIaPuoeL6oT2JkiI/edit?gid=0#gid=0)
+
+### Reporting Sales Numbers
+
+*2. Sales Reporting*
+- Generated monthly sales reports by country and region.
+- Calculated cumulative totals and rankings using window functions.
+- Incorporated country-level tax details and percentages to enhance reporting accuracy.
+- **Query**:[Advanced SQL Query #2](advanced-sql/advanced-queries(2).sql)
+- **Sample Result**: [Advanced SQL Results #2](https://docs.google.com/spreadsheets/d/13SEXRpmFAnxc-yJj-ymLdMj6gbEYynDoUeVa0ZtXWJI/edit?gid=297288542#gid=297288542)
 
 ---
 
 ## 💻 Technologies
-
-- Google Sheets  
-- Pivot Tables  
-- Data Visualization (Charts)  
-- Spreadsheet Functions (VLOOKUP, INDEX-MATCH, IF, ARRAYFORMULA, CONCATENATE)  
-- Data Cleaning & Transformation Techniques  
-- Conditional Formatting & Data Validation  
+- SQL (advanced querying, joins, CTEs, window functions)
+- Google Sheets (query result documentation and sharing)
+- GitHub (version control and project hosting)
 
 ---
 
 ## 🔎 Usage Instructions
 
-1. Open the Google Sheets dashboard using the project link above  
-2. Navigate through the sheets:
-   - Task Sheet – project requirements and business questions  
-   - Data sheets – raw and processed datasets  
-   - Pivot tables – structured aggregations for analysis  
-   - Overview dashboard – final insights and visualizations  
-3. Review charts and insights to understand key business trends and performance drivers  
+- Download the AdventureWorks demo database if you want to run the queries.
+- Review SQL queries in `basic-sql/queries.sql` and `advanced-sql/queries.sql`.
+- Check the example results using the attached links.
 
 ---
 
 ## ❔ Next Steps
 
-- Expand dashboard with additional KPIs and deeper segmentation (e.g., product-level analysis)  
-- Add automation using Apps Script or advanced spreadsheet functions  
-- Integrate additional datasets for richer analysis  
-- Rebuild the project in Power BI or Tableau for comparison  
-- Develop additional case studies to strengthen analytics portfolio  
+- Expand analysis with advanced SQL techniques (window functions, cohort analysis, and time-based trends)
+- Develop interactive dashboards to complement SQL insights (Tableau or Power BI)
+- Add sample datasets (CSV extracts) to improve reproducibility without requiring full database setup
+- Improve customer analytics with segmentation (RFM analysis, churn indicators)
